@@ -1,6 +1,6 @@
 #define print_random.c
 #define random.c
 
-#include<random.h>
+#include "random.h"
 
-
+putchar( randchar(ch) );
