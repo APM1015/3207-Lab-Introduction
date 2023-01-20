@@ -8,7 +8,8 @@ int main()
 	
 	int c = rand() % 26;
 	char ch = (char)(char+65);
-	putf('%c',ch);
+	//putf('%c',ch);
+	printf('%c', ch);
 	return 0;
 	
 	/*
