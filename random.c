@@ -6,12 +6,11 @@
 int main()
 {
 	
-	srand( (unsigned)time(NULL) );
-	char c = (char)((rand() % 26) + 65);
-	
-
-	printf('%c', c);
-	return 0;
+    srand( (unsigned)time(NULL) );
+    int l = ((rand() % 26) + 65);
+    char ch = l;
+    printf("%c", ch);
+    return 0;
 	
 	
 }
