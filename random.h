@@ -4,3 +4,5 @@
 #include "random.h"
 
 putchar( randchar(ch) );
+
+#endif
