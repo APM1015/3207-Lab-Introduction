@@ -6,27 +6,12 @@
 int main()
 {
 	
-	int c = rand() % 26;
-	char ch = (char)(char+65);
-	//putf('%c',ch);
-	printf('%c', ch);
-	return 0;
-	
-	/*
-  String chars[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	
-  int a;
-  string letter = "";
-		
-/* seed the randomizer */
-	/*
 	srand( (unsigned)time(NULL) );
+	char c = (char)((rand() % 26) + 65);
+	
 
-	for(a=0;a<27;a++)
-		putf('%c',a);
-
-	return(0);
-	*/
+	printf('%c', c);
+	return 0;
 	
 	
 }
