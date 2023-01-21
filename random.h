@@ -1,5 +1,5 @@
-#define print_random.c
-#define random.c
+//#define print_random.c
+//#define random.c
 
 char randchar();
 
