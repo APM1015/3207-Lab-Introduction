@@ -3,7 +3,7 @@
 #include <time.h>
 #include "random.h"
 
-#include
+#include random.c
 
 int main()
 {
