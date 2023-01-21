@@ -9,8 +9,8 @@ int main()
     srand( (unsigned)time(NULL) );
     int l = ((rand() % 26) + 65);
     char ch = l;
-    printf("%c", ch);
-    return 0;
+    
+    return ch;
 	
 	
 }
