@@ -3,7 +3,7 @@
 #include <time.h>
 #include "random.h"
 
-int randchar()
+char randchar()
 {
 	
     srand( (unsigned)time(NULL) );
