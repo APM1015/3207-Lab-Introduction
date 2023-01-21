@@ -3,6 +3,6 @@
 
 #include "random.h"
 
-char putchar( randchar(ch) );
+char randchar(ch);
 
 #endif
